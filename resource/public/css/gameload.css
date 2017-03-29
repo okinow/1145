@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Frijole);
+/*Preload*/
+div#gameload-box{
+	position:absolute;
+	top:0;right:0;bottom:0;left:0;
+	background:#5C3ED1;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.62, #5C3ED1),
+		color-stop(1, #381EA1)
+	);
+	background-image: -o-linear-gradient(bottom, #5C3ED1 62%, #381EA1 100%);
+	background-image: -moz-linear-gradient(bottom, #5C3ED1 62%, #381EA1 100%);
+	background-image: -webkit-linear-gradient(bottom, #5C3ED1 62%, #381EA1 100%);
+	background-image: -ms-linear-gradient(bottom, #5C3ED1 62%, #381EA1 100%);
+	background-image: linear-gradient(to bottom, #5C3ED1 62%, #381EA1 100%);
+	z-index:1}
+	div#gameload-box ul.g-logo{
+		width:350px;
+		margin:50px auto}
+		div#gameload-box ul.g-logo a{
+			display:block;
+			text-decoration:none;
+			font-weight:bold;
+			font-family:'Frijole', "Comic Sans MS", cursive;
+			color:#FFCC00;text-shadow:1px 1px #000;
+			font-weight:bold;
+			font-size:50px;
+			outline:none;
+			margin-bottom:0}
+			div#gameload-box ul.g-logo a:first-letter{font-size:75px;color:#f7df0a}
+			div#gameload-box ul.g-logo a:hover{color:#f7df0a}
+		div#gameload-box ul.g-logo em{
+			color:#000;
+			text-shadow:1px 1px #6d4fe3;
+			display:block;
+			text-align:right;
+			font-size:14px;
+			font-style:normal;
+			cursor:default;
+			font-family:"Comic Sans MS", cursive}
+			div#gameload-box .processbar{
+				width:250px;
+				margin:20px auto;
+				list-style:none;
+				background-color:#2f1799;
+				border-radius:2em;
+				padding:2px;
+				box-shadow:0 1px 1px #190961 inset;
+				-webkit-box-shadow:0 1px 1px #190961 inset}
+				div#gameload-box .processbar .g-line{
+					width:0%;
+					height:10px;
+					display:block;
+					border-radius:2em;
+					background-color:#f5d108;
+					box-shadow:0 -2px 2px #a68c08 inset;
+					-webkit-box-shadow:0 -2px 2px #a68c08 inset}

@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Concert+One);
+@import url(http://fonts.googleapis.com/css?family=Jolly+Lodger);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(http://fonts.googleapis.com/css?family=Creepster);
+	@font-face {
+    font-family: 'Hanged Letters';
+    src: url(../fonts/PokemonSolid.html)}
+@font-face {
+    font-family: 'Abel';
+    src: url(../fonts/Abel.html)}
+		/*Player Style*/	
+.headerBox{
+	width:1000px;
+	background-color:#213f03;
+	border:5px solid #5f86ba;
+	margin:5px auto 10px auto}
+.contentBox{
+	margin:5px auto;
+	box-shadow:0 0 15px #000}
+	.contentBox ul{
+		float:left}
+		.contentBox ul.leftBox, .contentBox ul.rightBox{
+			width:160px;
+			padding:5px;
+			height:600px;       
+			margin:0 5px 0 5px;background-image: linear-gradient(to bottom, rgb(105, 105, 105) 0%, rgb(105, 105, 105) 100%)}	
+	.centerBox{background-color:#213f03;border:5px solid #506582;margin-bottom:10px;box-shadow:0 0 2px #AAA;border-radius:5px}	
+		.swfHeader{
+			height:60px;background:#3a7004;background-image: linear-gradient(to bottom, rgb(3a7004, 3a7004, 3a7004) 49%, rgb(3a7004, 3a7004, 3a7004) 55%);border-bottom:1px solid #045369;box-shadow:0 1px #045369}
+			.swfHeader a{ color: #000;
+			    display: block;
+			    float: left;
+			    font-family: "Abel",sans-serif;
+			    font-size: 18px;
+			    line-height: 60px;
+			    margin: 0;
+			    padding: 0 15px;
+			    text-decoration: none;
+			    text-shadow: 0 0 1px #eee;}
+			.swfHeader a.logo{
+				display:block;
+				float:left;
+				height:60px;
+				line-height:50px;
+				font-family:'Hanged Letters', cursive;
+				font-size:40px;
+				text-decoration:none;
+				color:#242930;
+				text-shadow:0 0 1px #000;
+				padding:0 15px 0 15px}
+			.arrow, .name{display:block;float:left;height:60px;line-height:60px;font-family:'Abel', cursive;font-size:25px;padding:0 5px 0 5px}	
+			.arrow{font-size:40px;line-height:50px}
+		.swfBox{margin:20px 160px 20px 160px;background-color:#000}	
+		.swfFooter{border-top:1px solid #045369;box-shadow:0 -1px #045369;text-align:center;padding:10px 0 10px 0}	
+			.boxes{
+				display:inline-block;
+				vertical-align:top;
+				height:60px;width:60px;
+				margin:5px;
+				border:2px solid #FFF;
+				box-shadow:1px 1px 2px #666;
+				border-radius:9px;
+				overflow:hidden}
+				.boxes img{width:100%;height:100%}
+		.swfFooterAds{border-top:1px solid #045369;box-shadow:0 -1px #045369;padding:25px 0 25px 0}
+		.ad728x90, .ad1000x90{
+			width:728px;
+			height:90px;
+			margin:5px auto 5px auto;
+			background:rgba(0, 0, 0, 0.05)}
+		.ad1000x90{width:970px}	
